@@ -1,0 +1,271 @@
+body{
+justify-content: center !important;
+align-items: center !important;
+display: flex;
+margin:0 px;
+background-image: url(/public/design/desktop-preview.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.colors_font{
+height: auto;
+width: auto;
+}
+.card{
+    display: flex;
+    justify-content: center !important;
+    background-color:  hsl(27, 66%, 92%);
+    border: none !important;
+    height: 580px !important;
+    width: 150px !important;
+    align-items: center;
+}
+@media (min-width: 375px) {
+    .card-1-body{
+        width: 200px !important;  
+        gap: 3em;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}
+.card-1-body{
+    border-radius: 15px;
+    height: 600px !important;
+    width: 540px !important;
+    background-color: hsl(10, 79%, 65%) !important;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    color: white;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex;
+    gap: 17em;
+}
+.card-2-body{
+    color: gray ;
+    background-color: white;
+    border-radius: 15px;
+    height: 450px;
+    width: 550px !important;
+    border: solid 1px black;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color:  hsl(33, 100%, 98%);
+    border: none !important;
+    padding: 30px;
+
+}
+.chiffres{
+    font-weight: bold;
+    color: black; 
+    font-size: 30px;
+}
+.title{
+    font-weight: bold;
+    color: black; 
+    font-size: 20px;
+}
+.dec{
+    font-weight: bold;
+    color: black; 
+    font-size: 15px;
+}
+.mon{
+    border: 1px hsl(10, 79%, 65%) !important;
+    border-radius: 5px;
+    height: 45px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%) !important;
+}
+.tue{
+    border: 1px hsl(10, 79%, 65%) !important;
+    border-radius: 5px;
+    height: 70px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%) !important;
+}
+.wed{
+    border: 1px hsl(10, 79%, 65%) !important;
+    border-radius: 5px;
+    height: 95px;
+    width: 40px;
+    background-color:  hsl(186, 34%, 60%) !important;
+}
+.thu{
+    border: 1px hsl(10, 79%, 65%) !important;
+    border-radius: 5px;
+    height: 65px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%) !important;
+}
+.fri{
+    border: 1px hsl(10, 79%, 65%) !important;
+    border-radius: 5px;
+    height: 55px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%) !important;
+}
+.sat{
+    border: 1px hsl(10, 79%, 65%) !important;
+    border-radius: 8px;
+    height: 85px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%) !important;
+}
+.sun{
+    border: 1px hsl(10, 79%, 65%) !important;
+    border-radius: 8px;
+    height: 60px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%) !important;
+}
+.graphique{
+    display: flex;
+    gap: 2.7em;
+}
+.days{
+    gap: 25em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.stats{
+    display: flex;
+    gap: 12px;
+    justify-content: center !important;
+    display: flex;
+}
+.stats_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px hsl(33, 100%, 98%);
+    border-radius: 5px;
+    height: 43px;
+    width: 390px !important;
+    background-color: hsl(33, 100%, 98%);
+    margin: 8px;
+    gap: 1.5em;
+    color: hsl(33, 100%, 98%);
+    text-align: center;
+}
+.stats_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px hsl(33, 100%, 98%);
+    border-radius: 5px;
+    height: 43px;
+    width: 390px !important;
+    background-color: hsl(33, 100%, 98%);
+    margin: 8px;
+    gap: 1.5em;
+    color: hsl(33, 100%, 98%);
+    text-align: center;
+}
+.stats_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px hsl(33, 100%, 98%);
+    border-radius: 5px;
+    height: 43px;
+    width: 390px !important;
+    background-color: hsl(33, 100%, 98%);
+    margin: 8px;
+    gap: 1.5em;
+    color: hsl(33, 100%, 98%);
+    text-align: center;
+}
+.stats_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px hsl(33, 100%, 98%);
+    border-radius: 5px;
+    height: 43px;
+    width: 390px !important;
+    background-color: hsl(33, 100%, 98%);
+    margin: 8px;
+    gap: 1.5em;
+    color: hsl(33, 100%, 98%);
+    text-align: center;
+}
+.stats_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px hsl(33, 100%, 98%);
+    border-radius: 5px;
+    height: 43px;
+    width: 390px !important;
+    background-color: hsl(33, 100%, 98%);
+    margin: 8px;
+    gap: 1.5em;
+    color: hsl(33, 100%, 98%);
+    text-align: center;
+}
+.stats_6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px hsl(33, 100%, 98%);
+    border-radius: 5px;
+    height: 43px;
+    width: 390px !important;
+    background-color: hsl(33, 100%, 98%);
+    margin: 8px;
+    gap: 1.5em;
+    color: hsl(33, 100%, 98%);
+    text-align: center;
+}
+.stats_7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px hsl(33, 100%, 98%);
+    border-radius: 5px;
+    height: 43px;
+    width: 390px !important;
+    background-color: hsl(33, 100%, 98%);
+    margin: 8px;
+    gap: 1.5em;
+    color: hsl(33, 100%, 98%);
+    text-align: center;
+}
+.stats_8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px hsl(33, 100%, 98%);
+    border-radius: 5px;
+    height: 43px;
+    width: 390px !important;
+    background-color: hsl(33, 100%, 98%);
+    margin: 8px;
+    gap: 1.5em;
+    color: hsl(33, 100%, 98%);
+    text-align: center;
+}
+.spending{
+    display: flex;
+    gap : 1.9em;
+    align-items: flex-end;
+}
+.txt{
+    display: flex;
+    gap: 14em;
+}
+.ronds{
+    justify-content: center !important;
+    display: flex;
+    align-items: center !important;
+    margin: 15px ;
+    padding: 15px;
+    background-color:  hsl(27, 66%, 92%);
+    width: 750px;
+    height: 750px;
+}
